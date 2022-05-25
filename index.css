@@ -1,0 +1,60 @@
+html{
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;  
+}
+table{
+
+    font-family: palatino linotype;
+    width: 65%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 30%;
+    margin-right: 5%;
+    background-color: white;
+    text-align: justify;
+    vertical-align: top;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1[class="Encabezado foto"]{
+    color: white
+}
+p{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+span[class=rojo]{
+    color:red;
+}
+span[class=azul]{
+    color:blue
+}
+span[class=palatino-rojo]{
+    color: red;
+    font-weight: bolder;
+}
+span[class=negrita]{
+    font-weight: bolder;
+}
+ul{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+}
+ul[class="primera lista"]{
+    list-style-image: url(add.png);
+}
+ul[class="segunda lista"]{
+    list-style-image: url(next.png);
+}
+img{
+    padding-left: 10%;
+    padding-right: 5;
+    width: 80%;
+}
+tr[class="footer"]{
+    background-color: pink;
+    text-align: center;
+}
